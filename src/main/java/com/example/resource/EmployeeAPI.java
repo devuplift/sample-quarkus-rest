@@ -85,7 +85,7 @@ public class EmployeeAPI {
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
     @Path("/employee")
-    public Response deleteEmployee(String email) {
+    public Response deleteEmployee(@QueryParam("email") String email) {
         employeeService.deleteEmployee(email);
         return Response.ok().build();
     }

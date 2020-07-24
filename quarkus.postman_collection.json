@@ -242,6 +242,31 @@
 			"response": []
 		},
 		{
+			"name": "delete employee",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/employee?email=a@a.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "a@a.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "get all employees - CORS header",
 			"request": {
 				"method": "GET",
