@@ -3,6 +3,7 @@ package com.example.service;
 import com.example.domain.Employee;
 import com.example.entity.EmpEntity;
 import com.example.mapper.EmpMapper;
+import org.eclipse.microprofile.faulttolerance.Retry;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
