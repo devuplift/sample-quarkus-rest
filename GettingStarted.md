@@ -22,11 +22,11 @@
 
 
 # Usefull Links
-https://microprofile.io/
-https://quarkus.io/
-https://www.graalvm.org/
-https://quarkus.io/guides/hibernate-orm-panache
-https://smallrye.io/
-http://microprofile.io/
-http://openjdk.java.net/jeps/295
-https://quarkus.io/blog/march-of-ides/
+* https://microprofile.io/
+* https://quarkus.io/
+* https://www.graalvm.org/
+* https://quarkus.io/guides/hibernate-orm-panache
+* https://smallrye.io/
+* http://microprofile.io/
+* http://openjdk.java.net/jeps/295
+* https://quarkus.io/blog/march-of-ides/
